@@ -8,6 +8,7 @@ public class AnimalGenerator : MonoBehaviour
     //public GameObject head, ears, extra, eyes, legs, tail;
     public SpriteRenderer bodySprite, earsSprite, extrasSprite, eyesSprite, legsSprite, tailSprite;
     AnimalPartsManager partsScript;
+    Color randomColor;
 
     // Start is called before the first frame update
     void Awake()
@@ -33,9 +34,10 @@ public class AnimalGenerator : MonoBehaviour
         tailSprite.sprite = partsScript.correctLegs.partSprite;
         //Debug.Log(partsScript.correctEars.partType);
 
-        foreach(SpriteRenderer rend in GetComponentsInChildren<SpriteRenderer>())
+        randomColor = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f); ;
+        foreach (SpriteRenderer rend in GetComponentsInChildren<SpriteRenderer>())
         {
-            rend.material.color = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f); ;
+            rend.material.color = randomColor;
         }
     }
 }
