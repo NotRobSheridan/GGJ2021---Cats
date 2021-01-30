@@ -764,7 +764,7 @@ GameObject:
   - component: {fileID: 1039657922}
   - component: {fileID: 1039657923}
   m_Layer: 0
-  m_Name: Animal_Head
+  m_Name: Animal_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1282,7 +1282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 1492588336}
-  headSprite: {fileID: 1039657923}
+  bodySprite: {fileID: 1039657923}
   earsSprite: {fileID: 1028203643}
   extrasSprite: {fileID: 1539862137}
   eyesSprite: {fileID: 571599812}

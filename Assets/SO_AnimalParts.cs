@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/AnimalPart", order = 1)]
+[CreateAssetMenu(fileName = "BodyPart", menuName = "BodyPart", order = 1)]
 
 
 public class SO_AnimalParts : ScriptableObject
 
 {
     public enum PartType {body, ears, extra, eyes, legs, tail}
-    public enum PartIdentifier {spiky, spider, fluffy, dragon}
+    public enum PartIdentifier {regular, tentacle, webbed, spiky, hooves, stubby, fluffy, big, round, floppy, cyclops, gem}
 
     public string partName;
     public PartType partType;

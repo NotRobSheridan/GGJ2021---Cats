@@ -6,7 +6,7 @@ public class AnimalGenerator : MonoBehaviour
 {
     public GameObject gameManager;
     //public GameObject head, ears, extra, eyes, legs, tail;
-    public SpriteRenderer headSprite, earsSprite, extrasSprite, eyesSprite, legsSprite, tailSprite;
+    public SpriteRenderer bodySprite, earsSprite, extrasSprite, eyesSprite, legsSprite, tailSprite;
     AnimalPartsManager partsScript;
 
     // Start is called before the first frame update
@@ -25,7 +25,7 @@ public class AnimalGenerator : MonoBehaviour
     public void GenerateAnimal()
     {
         partsScript.CreateAnimal();
-        //headSprite.sprite = partsScript.correctHead.partSprite;
+        bodySprite.sprite = partsScript.correctBody.partSprite;
         earsSprite.sprite = partsScript.correctEars.partSprite;
         extrasSprite.sprite = partsScript.correctExtras.partSprite;
         eyesSprite.sprite = partsScript.correctEyes.partSprite;
