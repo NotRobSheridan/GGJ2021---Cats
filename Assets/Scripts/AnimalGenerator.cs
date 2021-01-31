@@ -6,6 +6,7 @@ public class AnimalGenerator : MonoBehaviour
 {
     public GameObject gameManager;
     public GameObject realLetter, fakeLetter;
+    public GameObject correctText, incorrectText, nextButton;
     public SpriteRenderer bodySprite, earsSprite, extrasSprite, eyesSprite, legsSprite, tailSprite;
     public GameObject[] letterAnchors;
 
@@ -27,7 +28,9 @@ public class AnimalGenerator : MonoBehaviour
     // Update is called once per frame
     public void GenerateAnimal()
     {
-
+        correctText.SetActive(false);
+        incorrectText.SetActive(false);
+        nextButton.SetActive(false);
 
         gameObject.transform.GetChild(0).gameObject.SetActive(true);
 
@@ -89,5 +92,18 @@ public class AnimalGenerator : MonoBehaviour
             fakeLetterFab.transform.parent = currentPoint.transform;
             fakeLetterFab.transform.position = currentPoint.transform.position;
         }
+    }
+
+    public void CorrectCat()
+    {
+        correctText.SetActive(true);
+        nextButton.SetActive(true);
+        Debug.Log("Correct Choice!");
+    }
+
+    public void IncorrectCat()
+    {
+        incorrectText.SetActive(true);
+        nextButton.SetActive(true);
     }
 }
