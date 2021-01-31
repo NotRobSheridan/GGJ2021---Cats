@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9ae35613fa86664396b6c318b6c559c, type: 3}
+  m_Name: BodyPart 9
+  m_EditorClassIdentifier: 
+  partName: 
+  partType: 3
+  partID: 5
+  partSprite: {fileID: 21300000, guid: 9c6f57239f3c5c94981a77ea2d9991e7, type: 3}
+  typeSprite: {fileID: 21300000, guid: 31e9498590a9ea8469742ddde09f26e6, type: 3}
+  idSprite: {fileID: 21300000, guid: 4bd57c6b36b62484fab3d2621a8e3161, type: 3}
