@@ -5,7 +5,6 @@ using UnityEngine;
 public class AnimalGenerator : MonoBehaviour
 {
     public GameObject gameManager;
-    //public GameObject head, ears, extra, eyes, legs, tail;
     public SpriteRenderer bodySprite, earsSprite, extrasSprite, eyesSprite, legsSprite, tailSprite;
     AnimalPartsManager partsScript;
     Color randomColor;
@@ -17,14 +16,10 @@ public class AnimalGenerator : MonoBehaviour
         partsScript = gameManager.GetComponent<AnimalPartsManager>();
     }
 
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     public void GenerateAnimal()
     {
+        gameObject.transform.GetChild(0).gameObject.SetActive(true);
         partsScript.CreateAnimal();
         bodySprite.sprite = partsScript.correctBody.partSprite;
         earsSprite.sprite = partsScript.correctEars.partSprite;
@@ -32,8 +27,6 @@ public class AnimalGenerator : MonoBehaviour
         eyesSprite.sprite = partsScript.correctEyes.partSprite;
         legsSprite.sprite = partsScript.correctTail.partSprite;
         tailSprite.sprite = partsScript.correctLegs.partSprite;
-        //Debug.Log(partsScript.correctEars.partType);
-
         randomColor = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f); ;
         foreach (SpriteRenderer rend in GetComponentsInChildren<SpriteRenderer>())
         {
