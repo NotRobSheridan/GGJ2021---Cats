@@ -10,9 +10,8 @@ public class SO_AnimalParts : ScriptableObject
 {
     public enum PartType {body, ears, extra, eyes, legs, tail}
     public enum PartIdentifier {regular, tentacle, webbed, spiky, hooves, stubby, fluffy, big, round, floppy, cyclops, gem}
-
     public string partName;
     public PartType partType;
     public PartIdentifier partID;
-    public Sprite partSprite;
+    public Sprite partSprite, typeSprite, idSprite;
 }

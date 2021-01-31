@@ -23,6 +23,7 @@ public class AnimalPartsManager : MonoBehaviour
         GetTails();
     }
 
+
     void GetBodies()
     {
         SO_AnimalParts[] Body = Resources.LoadAll<SO_AnimalParts>("AnimalParts/Body");

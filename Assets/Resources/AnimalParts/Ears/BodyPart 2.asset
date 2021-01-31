@@ -16,3 +16,5 @@ MonoBehaviour:
   partType: 1
   partID: 9
   partSprite: {fileID: 21300000, guid: 3678ac69b5ce34644aa55a5eba4e3a0e, type: 3}
+  typeSprite: {fileID: 21300000, guid: e508da4a561876747a78410311406d2c, type: 3}
+  idSprite: {fileID: 21300000, guid: d6fc2d5810153ab4182335ba287eeff0, type: 3}
