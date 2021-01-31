@@ -224,7 +224,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< Updated upstream
       m_ExpandedIDs: 54d5ffff58d6ffff62d7ffffbadaffff1efbffff1a3f0000b03f0000e043000076440000
+=======
+      m_ExpandedIDs: 1efaffff
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -482,20 +486,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< Updated upstream
     - Assets/Scenes
+=======
+    - Assets/Resources/AnimalParts/Ears
+>>>>>>> Stashed changes
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< Updated upstream
   - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Rob#\GGJ2020 - Cats
+=======
+  - Assets/Resources/AnimalParts/Ears
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: D:\cats\GGJ2021---Cats
+>>>>>>> Stashed changes
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_SelectedIDs: f43b0000
     m_LastClickedID: 15348
     m_ExpandedIDs: 00000000d83b0000da3b0000dc3b0000de3b0000e03b0000e23b000000ca9a3b
+=======
+    m_SelectedIDs: f2390000
+    m_LastClickedID: 14834
+    m_ExpandedIDs: 00000000e4390000ea390000f439000000ca9a3b
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -523,7 +543,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000d83b0000da3b0000dc3b0000de3b0000e03b0000e23b000000ca9a3b
+=======
+    m_ExpandedIDs: 00000000e4390000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
